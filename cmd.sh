@@ -1,0 +1,1 @@
+spark-submit --class com.dr.leo.etl.LeoFastKettleApplication --executor-memory 4G --num-executors 4 --master yarn --deploy-mode client leo-fast-kettle-4.0.1-SNAPSHOT.jar
